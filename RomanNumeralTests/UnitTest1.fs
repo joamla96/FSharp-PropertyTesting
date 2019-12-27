@@ -34,7 +34,7 @@ let ``Test that roman numerals nave no more than one V`` () =
     Check.Quick (Helpers.testWithRange prop)
 
 // Test for expected failiures
-// Falsifiable property
+// Falsifiable property (this test fails on purpose)
 // Idea of these: If the test fails, write "normal (oracle)" tests to try narrow down.
 [<Test>]
 let ``Test that roman numerals have no more than two Xs`` () =
